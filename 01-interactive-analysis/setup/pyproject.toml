@@ -1,0 +1,23 @@
+[project]
+name = "interactive-analysis"
+version = "0.1.0"
+description = "Interactive data analysis demo using Claude Code with FRED API"
+readme = "README.md"
+authors = [
+    {name = "Dongjin Jang", email = "dongjinj@amazon.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel==7.1.0",
+    "jupyter==1.1.1",
+    "fredapi>=0.5.2",
+    "pandas==2.3.3",
+    "numpy>=1.26.4",
+    "matplotlib==3.10.7",
+    "matplotlib-inline==0.2.1",
+    "seaborn==0.13.2",
+    "plotly==6.4.0",
+    "python-dotenv==1.2.1",
+    "requests>=2.31.0",
+    "pillow>=11.2.1",
+]
