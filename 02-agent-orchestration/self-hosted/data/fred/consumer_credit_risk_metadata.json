@@ -1,0 +1,60 @@
+{
+  "purpose": "Credit Risk Committee Meeting Report",
+  "source": "Federal Reserve Economic Data (FRED)",
+  "api_url": "https://fred.stlouisfed.org/",
+  "fetch_date": "2026-01-11T05:29:27.506570",
+  "data_period": {
+    "start": "2000-01-01",
+    "end": "2025-12-01",
+    "observations": 311
+  },
+  "columns": {
+    "TOTALSL": {
+      "name": "Total Consumer Credit Outstanding",
+      "unit": "Millions of Dollars",
+      "frequency": "Monthly",
+      "description": "Total consumer credit outstanding, seasonally adjusted. Includes revolving and nonrevolving credit."
+    },
+    "DRCCLACBS": {
+      "name": "Delinquency Rate on Credit Card Loans, All Commercial Banks",
+      "unit": "Percent",
+      "frequency": "Quarterly",
+      "description": "Delinquency rate on credit card loans at all commercial banks. Loans 30+ days past due."
+    },
+    "UNRATE": {
+      "name": "Unemployment Rate",
+      "unit": "Percent",
+      "frequency": "Monthly",
+      "description": "Civilian unemployment rate, seasonally adjusted. Key indicator of labor market health."
+    },
+    "FEDFUNDS": {
+      "name": "Federal Funds Effective Rate",
+      "unit": "Percent",
+      "frequency": "Monthly",
+      "description": "Effective federal funds rate. The interest rate at which depository institutions lend reserve balances to other depository institutions overnight."
+    }
+  },
+  "latest_values": {
+    "TOTALSL": {
+      "value": 5084831.24,
+      "date": "2025-12-01",
+      "unit": "Millions of Dollars"
+    },
+    "DRCCLACBS": {
+      "value": 2.98,
+      "date": "2025-12-01",
+      "unit": "Percent"
+    },
+    "UNRATE": {
+      "value": 4.4,
+      "date": "2025-12-01",
+      "unit": "Percent"
+    },
+    "FEDFUNDS": {
+      "value": 3.72,
+      "date": "2025-12-01",
+      "unit": "Percent"
+    }
+  },
+  "data_file": "consumer_credit_risk_data.csv"
+}

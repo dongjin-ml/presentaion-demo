@@ -1,17 +1,8 @@
 2번과 싱크 맞추기
 
 1. 내가 분석하고 싶은 주제 확정하기
-    - You will write a US Consumer Price Index (CPI) Inflation Analysis Report.
-      Analyze from an economic and policy perspective, focusing on:
-      - Inflation trends by category (Food, Energy, Housing, etc.)
-      - COVID-19 impact analysis (2020 before/after)
-      - Category-wise volatility comparison
-      Generate charts and extract actionable insights, then create a docx file.
-      The analysis target is the './data/fred/' directory.
-      us-cpi-by-category.csv is the data file,
-      us_cpi_by_category_columns.json contains the column definitions.
-
-      Topic: Consumer Credit Delinquency Risk Prediction
+    
+Topic: Consumer Credit Delinquency Risk Prediction
 
 Analysis Focus:
 - Consumer credit trends (FRED: TOTALSL)
